@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mayadweepam Adventures</title>
+  <meta property="og:url" content="https://mayadweepam.zee5.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Mayadweepam Adventures" />
+  <meta property="og:description" content="Play Mayadweepam Adventures" />
+  <meta property="og:image" content="https://mayadweepam.zee5.com/FbImg.png" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet" />
+  <script src="https://unpkg.com/video.js/dist/video.js"></script>
+  <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    #numberimage {
+      position: relative;
+      text-align: center;
+      /* background-image: url(./assets/form/Rank_Number_BG.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center; */
+    }
+
+    #imageval {
+      border: 1px solid black;
+      border-radius: 5px;
+    }
+
+    #photoData {
+      display: flex;
+      color: white;
+      height: 70px;
+      margin-bottom: 4%;
+      /* margin-bottom: 20%; */
+    }
+
+    #photoData>div {
+      margin-top: 10px;
+      height: 50px;
+      font-size: 15px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+  <!-- MIXED PANEL -->
+  <script type="text/javascript">
+    (function (f, b) {
+      if (!b.__SV) {
+        var e, g, i, h; window.mixpanel = b; b._i = []; b.init = function (e, f, c) {
+          function g(a, d) { var b = d.split("."); 2 == b.length && (a = a[b[0]], d = b[1]); a[d] = function () { a.push([d].concat(Array.prototype.slice.call(arguments, 0))) } } var a = b; "undefined" !== typeof c ? a = b[c] = [] : c = "mixpanel"; a.people = a.people || []; a.toString = function (a) { var d = "mixpanel"; "mixpanel" !== c && (d += "." + c); a || (d += " (stub)"); return d }; a.people.toString = function () { return a.toString(1) + ".people (stub)" }; i = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+          for (h = 0;h < i.length;h++)g(a, i[h]); var j = "set set_once union unset remove delete".split(" "); a.get_group = function () { function b(c) { d[c] = function () { call2_args = arguments; call2 = [c].concat(Array.prototype.slice.call(call2_args, 0)); a.push([e, call2]) } } for (var d = {}, e = ["get_group"].concat(Array.prototype.slice.call(arguments, 0)), c = 0;c < j.length;c++)b(j[c]); return d }; b._i.push([e, f, c])
+        }; b.__SV = 1.2; e = f.createElement("script"); e.type = "text/javascript"; e.async = !0; e.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ?
+          MIXPANEL_CUSTOM_LIB_URL : "file:" === f.location.protocol && "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js" : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"; g = f.getElementsByTagName("script")[0]; g.parentNode.insertBefore(e, g)
+      }
+    })(document, window.mixpanel || []);
+
+    mixpanel.init('803553b5f86ba909f40af2556424e44d');
+    mixpanel.register({
+      "Platform Section": "Mayadweepam"
+    });
+
+  </script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        appId: '1018749918995972',
+        cookie: true,
+        xfbml: true,
+        version: 'v11.0',
+      })
+
+      FB.getLoginStatus(function (response) {
+        // Called after the JS SDK has been initialized.
+        statusChangeCallback(response) // Returns the login status.
+      })
+    }
+
+    FB.AppEvents.logPageView()
+      ; (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0]
+        if (d.getElementById(id)) {
+          return
+        }
+        js = d.createElement(s)
+        js.id = id
+        js.src = 'https://connect.facebook.net/en_US/sdk.js'
+        fjs.parentNode.insertBefore(js, fjs)
+      })(document, 'script', 'facebook-jssdk')
+  </script>
+
+  <!-- FBLOGIN -->
+  <script>
+    function statusChangeCallback(response) {
+      // Called with the results from FB.getLoginStatus().
+      /* console.log('statusChangeCallback') */
+      /* console.log(response) */ // The current login status of the person.
+      if (response.status === 'connected') {
+        // Logged into your webpage and Facebook.
+        mixpanel.track("CTAs", {
+          "Element": "Login"
+        });
+        testAPI()
+      } else {
+        // Not logged into your webpage or we are unable to tell.
+        document.getElementById('status').innerHTML =
+          'Please log ' + 'into this webpage.'
+      }
+    }
+
+    function checkLoginState() {
+      // Called when a person is finished with the Login Button.
+      FB.getLoginStatus(function (response) {
+        // See the onlogin handler
+        statusChangeCallback(response)
+      })
+    }
+
+    function testAPI() {
+      // Testing Graph API after login.  See statusChangeCallback() for when this call is made.
+      /* console.log('Welcome!  Fetching your information.... ') */
+      FB.api(
+        '/me',
+        { fields: 'email,last_name,picture,first_name' },
+        function (response) {
+          if (response.id) {
+            postData(
+              'https://8btazx6thc.execute-api.ap-south-1.amazonaws.com/postscore',
+              {
+                id: response.id,
+                firstname: response.first_name,
+                lastname: response.last_name,
+                score: document.getElementById('setcheckfont').innerHTML,
+                profilePic: response.picture.data.url,
+                email: response.email,
+              }
+            )
+              .then((data) => {
+                /* console.log(
+                  'Successful login for: ' + response.id,
+                  response.first_name,
+                  response.last_name,
+                  response.picture.data.url,
+                  response.email
+                ) */
+                mixpanel.track('Entered Leaderboard');
+                document.getElementById('setcheckfont').innerHTML = ''
+                /* document.getElementById('firstname').innerHTML =
+                  'FIRST NAME :' + response.first_name
+                document.getElementById('lastname').innerHTML =
+                  'LAST NAME :' + response.last_name
+                document.getElementById('email').innerHTML =
+                  'EMAIL :' + response.email
+
+                document.getElementById('imageval').src =
+                  'http://graph.facebook.com/' + response.id + '/picture'
+
+                document.getElementById('status').innerHTML =
+                  'Thanks for logging in, ' + response.name + '!' */
+              })
+              .catch((error) => {
+                /* console.log(error) */
+              })
+          }
+        }
+      )
+    }
+
+    async function postData(url = '', data = {}) {
+      // Default options are marked with *
+      const response = await fetch(url, {
+        method: 'POST',
+        mode: 'no-cors',
+        cache: 'no-cache',
+        headers: {
+          'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin': '*',
+        },
+        body: JSON.stringify(data), // body data type must match "Content-Type" header
+      })
+      return response // parses JSON response into native JavaScript objects
+    }
+  </script>
+</head>
+
+<body>
+
+  <div class="containerr">
+    <div class="progress">
+      <div class="bar shadow overlap"></div>
+    </div>
+  </div>
+
+  <input id="fb-share" style="position: absolute; z-index: -1; width: 0; height: 0; opacity: 0" type="button"
+    value="" />
+
+  <div id="tutorialboard" class="tutorialboard">
+    <img src="./assets/Tutorial_Card.png" style="bottom: 18%; height: 65%" id="" alt="" />
+    <p style="bottom: 72%; font-size: 20px">Tutorial</p>
+    <p id="p1" style="bottom: 67%; width: 80%; font-size: 18px; color: black">
+      Swipe to Match 3 or More Gems
+    </p>
+    <p id="p2" style="bottom: 64%; width: 80%; font-size: 18px; color: black">
+      of the Same Color.
+    </p>
+    <img id="tutorialimg" src="./assets/tutorialgif.gif" style="width: 45%; bottom: 33%" />
+    <img id="nextbtnId" src="./assets/nextbtn.png" style="width: 30%; bottom: 25%" />
+    <img id="donebtnId" src="./assets/donebtn.png" style="width: 30%; bottom: 25%; display: none" />
+  </div>
+
+  <div class="videocontainer" id="videocontainer">
+    <video id="my_video_1" class="video-js vjs-fluid vjs-default-skin" controls preload="auto" data-setup="{}">
+      <source
+        src="https://d1v1s2of9ivmbp.cloudfront.net/test/Hippi/Output/Dadagiri_Gamification_Question_Answer/MAYADWEEPAM_WN_01102021_PF_te_0c53a3890becd0296cbe809d79ae08b8/index.m3u8"
+        type="application/x-mpegURL" />
+    </video>
+    <p style="color: white; text-align: right; font-size: 15px; margin: 20px" id="videoparatag">
+      Level Unlocks in : 30
+    </p>
+  </div>
+
+  <div class="leaderboard" id="leaderboard">
+    <div id="leaderboardheader">
+      <img id="homebtn" src="./assets/close.png" style="width: 10%;
+      position: absolute;
+      margin: 2%;" alt="">
+      <div id="photoData" style="
+            background-image: url(./assets/form/LeaderBoard_Telugu_Text.png);
+            height: 60%;
+            margin-top: 3%;
+          "></div>
+    </div>
+    <div id="backgroundscrollboard">
+      <div id="leaderboardtitle">
+        <div id="photoData" style="
+              background-image: url(./assets/form/LeaderBoard_Header.png);
+              width: 80%;
+              left: 0;
+              right: 0;
+              margin: auto;
+            ">
+          <div style="margin-top: 5%">
+            <p>Rank</p>
+          </div>
+          <div style="margin-top: 5%">
+            <p>Avatar</p>
+          </div>
+          <div style="margin-top: 5%">
+            <p>Name</p>
+          </div>
+          <div style="margin-top: 5%">
+            <p>Score</p>
+          </div>
+        </div>
+      </div>
+      <div id="flexcontainer">
+        <div style="
+              margin: 0;
+              padding: 0;
+              height: 100%;
+              width: 70%;
+              left: 0;
+              right: 0;
+              margin: auto;
+            " id="addPlayers" class="cont">
+          <div id="photoData">
+            <div id="numberimage">
+              <img src="./assets/form/Rank_Number_BG.png" alt="" style="width: 60%;
+                  margin-top: 16%;">
+              <div class="centered">1</div>
+            </div>
+            <div id="numberimage">
+              <img src="http://graph.facebook.com/2268057976668177/picture" alt="" style="width: 60%;
+              margin-top: 12%;">
+            </div>
+            <div>
+              <p>Sanket</p>
+            </div>
+            <div>
+              <p>600</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div id="leaderboardtitle">
+      <div id="photoData" style="
+            background-image: url(./assets/form/LeaderBoard_Header.png);
+            width: 80%;
+            left: 0;
+            right: 0;
+            margin: auto;
+          ">
+        <div style="margin-top: 5%">
+          <p>Rank</p>
+        </div>
+        <div style="margin-top: 5%">
+          <p>Avatar</p>
+        </div>
+        <div style="margin-top: 5%">
+          <p>Name</p>
+        </div>
+        <div style="margin-top: 5%">
+          <p>Score</p>
+        </div>
+      </div>
+    </div>
+    <div id="flexcontainer">
+      <div style="
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 70%;
+            left: 0;
+            right: 0;
+            margin: auto;
+          " id="addPlayers" class="cont">
+
+      </div>
+    </div> -->
+    <div id="footerleaderboard" style="text-align: center;position: relative;">
+
+      <div style="left: 0;top: 12%;right: 0;margin: auto;width: 50%;position: absolute;">
+        <img src="./assets/Login_Normal.png" alt="" style="
+      width: 100%;height: 100%;
+  ">
+      </div>
+
+      <div class="fb-login-button" scope="public_profile,email" style="left: 0;
+      top: 12%;
+      right: 0;
+      margin: auto;
+      width: 40%;
+      position: absolute;opacity: 0;" onlogin="checkLoginState(); data-width="" data-size=" large"
+        data-button-type="continue_with" data-layout="default" data-auto-logout-link="false"
+        data-use-continue-as="false"></div>
+
+
+
+      <!-- <img src="./assets/Login_Normal.png" style="    left: 0;
+    right: 0;
+    margin: auto;
+    width: 40%;
+    z-index: 2;
+    bottom: 2%;
+   " alt=""> -->
+
+    </div>
+  </div>
+
+  <section id="gameDiv"></section>
+  <div class="checkfont" id="checkfont">
+    <p id='setcheckfont'>Hello</p>
+  </div>
+  <script>
+    /* FB Share */
+
+    $(function () {
+      $('#fb-share').on('click', function (e) {
+        e.preventDefault()
+        /* console.log('fbshare') */
+        mixpanel.track('CTAs', {
+          Element: 'Share',
+        })
+        FB.ui(
+          {
+            method: 'share',
+            href: 'https://mayadweepam.zee5.com/',
+            image: 'https://mayadweepam.zee5.com/FbImg.png',
+            description: 'Play Mayadweepam',
+            title: 'Mayadweepam',
+          },
+          function (response) {
+            if (response && response.post_id) {
+              /* alert('Post was published.') */
+            } else {
+              /* alert('Post was not published.') */
+            }
+          }
+        )
+      })
+    })
+      /* End FB Share */
+  </script>
+</body>
+
+</html>

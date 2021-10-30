@@ -1,0 +1,1007 @@
+{
+	"textures": [
+		{
+			"image": "rakshas.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 485,
+				"h": 2048
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Rakshas_5_Idle.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 220,
+						"h": 198
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 220,
+						"h": 198
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 220,
+						"h": 198
+					}
+				},
+				{
+					"filename": "Rakshas_5_Walk_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 220,
+						"h": 198
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 220,
+						"h": 198
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 220,
+						"h": 198
+					}
+				},
+				{
+					"filename": "Rakshas_1_Walk_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 107,
+						"h": 199
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 107,
+						"h": 199
+					},
+					"frame": {
+						"x": 223,
+						"y": 1,
+						"w": 107,
+						"h": 199
+					}
+				},
+				{
+					"filename": "Rakshas_1_Walk_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 113,
+						"h": 199
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 113,
+						"h": 199
+					},
+					"frame": {
+						"x": 332,
+						"y": 1,
+						"w": 113,
+						"h": 199
+					}
+				},
+				{
+					"filename": "Rakshas_1_Walk_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 113,
+						"h": 199
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 113,
+						"h": 199
+					},
+					"frame": {
+						"x": 332,
+						"y": 1,
+						"w": 113,
+						"h": 199
+					}
+				},
+				{
+					"filename": "Rakshas_3_Walk_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 152,
+						"h": 199
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 152,
+						"h": 199
+					},
+					"frame": {
+						"x": 1,
+						"y": 202,
+						"w": 152,
+						"h": 199
+					}
+				},
+				{
+					"filename": "Rakshas_1_Walk_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 107,
+						"h": 199
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 107,
+						"h": 199
+					},
+					"frame": {
+						"x": 155,
+						"y": 202,
+						"w": 107,
+						"h": 199
+					}
+				},
+				{
+					"filename": "Rakshas_5_Walk_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 220,
+						"h": 199
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 220,
+						"h": 199
+					},
+					"frame": {
+						"x": 264,
+						"y": 202,
+						"w": 220,
+						"h": 199
+					}
+				},
+				{
+					"filename": "Rakshas_1_Idle.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 112,
+						"h": 199
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 112,
+						"h": 199
+					},
+					"frame": {
+						"x": 1,
+						"y": 403,
+						"w": 112,
+						"h": 199
+					}
+				},
+				{
+					"filename": "Rakshas_5_Attack_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 223,
+						"h": 199
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 223,
+						"h": 199
+					},
+					"frame": {
+						"x": 115,
+						"y": 403,
+						"w": 223,
+						"h": 199
+					}
+				},
+				{
+					"filename": "Rakshas_5_Attack_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 223,
+						"h": 199
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 223,
+						"h": 199
+					},
+					"frame": {
+						"x": 115,
+						"y": 403,
+						"w": 223,
+						"h": 199
+					}
+				},
+				{
+					"filename": "Rakshas_5_Attack_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 211,
+						"h": 199
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 211,
+						"h": 199
+					},
+					"frame": {
+						"x": 1,
+						"y": 604,
+						"w": 211,
+						"h": 199
+					}
+				},
+				{
+					"filename": "Rakshas_5_Walk_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 211,
+						"h": 199
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 211,
+						"h": 199
+					},
+					"frame": {
+						"x": 1,
+						"y": 604,
+						"w": 211,
+						"h": 199
+					}
+				},
+				{
+					"filename": "Rakshas_5_Walk_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 211,
+						"h": 199
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 211,
+						"h": 199
+					},
+					"frame": {
+						"x": 1,
+						"y": 604,
+						"w": 211,
+						"h": 199
+					}
+				},
+				{
+					"filename": "Rakshas_3_Attack_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 149,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 200
+					},
+					"frame": {
+						"x": 214,
+						"y": 604,
+						"w": 149,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_3_Idle.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 149,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 200
+					},
+					"frame": {
+						"x": 1,
+						"y": 806,
+						"w": 149,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_3_Walk_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 149,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 200
+					},
+					"frame": {
+						"x": 1,
+						"y": 806,
+						"w": 149,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_3_Walk_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 149,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 200
+					},
+					"frame": {
+						"x": 1,
+						"y": 806,
+						"w": 149,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_3_Walk_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 152,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 152,
+						"h": 200
+					},
+					"frame": {
+						"x": 152,
+						"y": 806,
+						"w": 152,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_4_Attack_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 157,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 157,
+						"h": 200
+					},
+					"frame": {
+						"x": 306,
+						"y": 806,
+						"w": 157,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_4_Idle.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 157,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 157,
+						"h": 200
+					},
+					"frame": {
+						"x": 306,
+						"y": 806,
+						"w": 157,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_4_Walk_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 157,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 157,
+						"h": 200
+					},
+					"frame": {
+						"x": 306,
+						"y": 806,
+						"w": 157,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_4_Walk_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 157,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 157,
+						"h": 200
+					},
+					"frame": {
+						"x": 306,
+						"y": 806,
+						"w": 157,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_4_Walk_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 172,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 172,
+						"h": 200
+					},
+					"frame": {
+						"x": 1,
+						"y": 1008,
+						"w": 172,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_4_Attack_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 149,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 200
+					},
+					"frame": {
+						"x": 175,
+						"y": 1008,
+						"w": 149,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_4_Attack_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 149,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 200
+					},
+					"frame": {
+						"x": 175,
+						"y": 1008,
+						"w": 149,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_3_Attack_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 142,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 142,
+						"h": 200
+					},
+					"frame": {
+						"x": 326,
+						"y": 1008,
+						"w": 142,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_2_Attack_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 115,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 115,
+						"h": 200
+					},
+					"frame": {
+						"x": 1,
+						"y": 1210,
+						"w": 115,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_2_Attack_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 115,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 115,
+						"h": 200
+					},
+					"frame": {
+						"x": 1,
+						"y": 1210,
+						"w": 115,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_1_Attack_6.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 113,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 113,
+						"h": 200
+					},
+					"frame": {
+						"x": 118,
+						"y": 1210,
+						"w": 113,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_1_Attack_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 117,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 117,
+						"h": 200
+					},
+					"frame": {
+						"x": 233,
+						"y": 1210,
+						"w": 117,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_1_Attack_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 117,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 117,
+						"h": 200
+					},
+					"frame": {
+						"x": 233,
+						"y": 1210,
+						"w": 117,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_1_Attack_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 111,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 111,
+						"h": 200
+					},
+					"frame": {
+						"x": 352,
+						"y": 1210,
+						"w": 111,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_1_Attack_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 109,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 109,
+						"h": 200
+					},
+					"frame": {
+						"x": 1,
+						"y": 1412,
+						"w": 109,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_1_Attack_5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 109,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 109,
+						"h": 200
+					},
+					"frame": {
+						"x": 1,
+						"y": 1412,
+						"w": 109,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_2_Walk_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 113,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 113,
+						"h": 200
+					},
+					"frame": {
+						"x": 112,
+						"y": 1412,
+						"w": 113,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_2_Walk_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 115,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 115,
+						"h": 200
+					},
+					"frame": {
+						"x": 227,
+						"y": 1412,
+						"w": 115,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_2_Attack_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 115,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 115,
+						"h": 200
+					},
+					"frame": {
+						"x": 344,
+						"y": 1412,
+						"w": 115,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_2_Idle.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 115,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 115,
+						"h": 200
+					},
+					"frame": {
+						"x": 344,
+						"y": 1412,
+						"w": 115,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_2_Walk_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 115,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 115,
+						"h": 200
+					},
+					"frame": {
+						"x": 344,
+						"y": 1412,
+						"w": 115,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_3_Attack_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 179,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 179,
+						"h": 200
+					},
+					"frame": {
+						"x": 1,
+						"y": 1614,
+						"w": 179,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_3_Attack_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 179,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 179,
+						"h": 200
+					},
+					"frame": {
+						"x": 1,
+						"y": 1614,
+						"w": 179,
+						"h": 200
+					}
+				},
+				{
+					"filename": "Rakshas_2_Walk_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 104,
+						"h": 201
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 104,
+						"h": 201
+					},
+					"frame": {
+						"x": 182,
+						"y": 1614,
+						"w": 104,
+						"h": 201
+					}
+				},
+				{
+					"filename": "Rakshas_4_Walk_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 172,
+						"h": 201
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 172,
+						"h": 201
+					},
+					"frame": {
+						"x": 288,
+						"y": 1614,
+						"w": 172,
+						"h": 201
+					}
+				},
+				{
+					"filename": "Rakshas_4_Attack_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 131,
+						"h": 207
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 131,
+						"h": 207
+					},
+					"frame": {
+						"x": 1,
+						"y": 1817,
+						"w": 131,
+						"h": 207
+					}
+				},
+				{
+					"filename": "Rakshas_2_Attack_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 117,
+						"h": 211
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 117,
+						"h": 211
+					},
+					"frame": {
+						"x": 134,
+						"y": 1817,
+						"w": 117,
+						"h": 211
+					}
+				},
+				{
+					"filename": "Rakshas_5_Attack_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 191,
+						"h": 230
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 191,
+						"h": 230
+					},
+					"frame": {
+						"x": 253,
+						"y": 1817,
+						"w": 191,
+						"h": 230
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:a0bd0cc8ca714710de8991acbdaa6e6e:a68909b23d5a3f512824e8f231c278f4:ada1553bfa37c2fd2abb69500fdfaf8b$"
+	}
+}

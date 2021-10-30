@@ -1,0 +1,209 @@
+{
+	"textures": [
+		{
+			"image": "hero.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 4013,
+				"h": 1050
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Boy_Attack_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 590,
+						"h": 1048
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 590,
+						"h": 1048
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 590,
+						"h": 1048
+					}
+				},
+				{
+					"filename": "Boy_Attack_7.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 590,
+						"h": 1048
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 590,
+						"h": 1048
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 590,
+						"h": 1048
+					}
+				},
+				{
+					"filename": "Boy_Attack_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 627,
+						"h": 1048
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 627,
+						"h": 1048
+					},
+					"frame": {
+						"x": 593,
+						"y": 1,
+						"w": 627,
+						"h": 1048
+					}
+				},
+				{
+					"filename": "Boy_Attack_6.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 627,
+						"h": 1048
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 627,
+						"h": 1048
+					},
+					"frame": {
+						"x": 593,
+						"y": 1,
+						"w": 627,
+						"h": 1048
+					}
+				},
+				{
+					"filename": "Boy_Attack_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 950,
+						"h": 1048
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 950,
+						"h": 1048
+					},
+					"frame": {
+						"x": 1222,
+						"y": 1,
+						"w": 950,
+						"h": 1048
+					}
+				},
+				{
+					"filename": "Boy_Attack_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 763,
+						"h": 1048
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 763,
+						"h": 1048
+					},
+					"frame": {
+						"x": 2174,
+						"y": 1,
+						"w": 763,
+						"h": 1048
+					}
+				},
+				{
+					"filename": "Boy_Attack_5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 650,
+						"h": 1048
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 650,
+						"h": 1048
+					},
+					"frame": {
+						"x": 2939,
+						"y": 1,
+						"w": 650,
+						"h": 1048
+					}
+				},
+				{
+					"filename": "Boy_Attack_8.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 421,
+						"h": 1041
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 421,
+						"h": 1041
+					},
+					"frame": {
+						"x": 3591,
+						"y": 1,
+						"w": 421,
+						"h": 1041
+					}
+				},
+				{
+					"filename": "Boy_Idle.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 421,
+						"h": 1041
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 421,
+						"h": 1041
+					},
+					"frame": {
+						"x": 3591,
+						"y": 1,
+						"w": 421,
+						"h": 1041
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:5d956f2c75ca69fb15349f3f6cf3e529:15b8a2995efc79ae5cbcd3161243e69b:eec64b416d3f54b5cb5181ef71d8f236$"
+	}
+}

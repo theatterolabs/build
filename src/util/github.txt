@@ -1,0 +1,6 @@
+git init
+git status
+git add .
+git commit -m ""
+git remote set-url origin git@github.com:snktcodes/Match-3-RPG-Puzzle-Game.git
+git push -u origin master
